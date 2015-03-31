@@ -15,13 +15,14 @@ The server limitations on Windows are two-fold:
 
 1- It is using poll() instead of select().  This 
    is straightforward to change.
+
 2- It uses some multiprocessing.Process, which
    passes objects between processes.  That failed
    on Windows, and I didn't explore it.
 
 To launch the server, run `main.py` in `server`.
 By default this creates logging output.  So it
-may be better to run `main.py >& logfile.txt`.
+may be better to run `./main.py >& logfile.txt`.
 
 To build your own client, it is probably best to
 unpack `rookie-kit-2014.zip` and work from there.
