@@ -1,0 +1,41 @@
+Explosions: 8x8
+  several elements that can be cycled through to produce animated
+  explosion.
+  Used when missiles hit anything.
+Missile: 8x8
+  1 or more elements to show the missile.  If more than one
+  exist, they will cycle in a loop as they travel.
+Dying missile: 8x8
+  several elements that can be cycled through to produce animated
+  disappearance of missile that has expired without hitting
+  anything.
+NPC: 16x16
+  at least 2 images to cycle through while non-player-characters
+  move.  The cycle is to produce appearance of motion.
+Dying NPC: 16x16
+  several elements that can be cycled through to produce animated
+  disappearance of NPC as it is destroyed by a missile.
+Player1 (good guy): 32x32
+  at least 2 images to cycle through while the player moves.
+  The cycle is to produce appearance of motion.
+Player2 (bad guy): 32x32
+  at least 2 images to cycle through while the player moves.
+  The cycle is to produce appearance of motion.
+Wall: 16x16
+  Image that can be tiled to produce the appearance of impassible
+  walls.
+Background: 896x640
+  Image to be used underneath the walls, and all other images.
+  Can be smaller, if it will tile to fill arbitrary background
+  size.
+Game Selection Screen: 896x640
+  Image to use to allow selection of "Duel Game", "Vs. AI",
+  "Tournament", or "Quit".
+Waiting Screen: 896x640
+  Image to use while waiting for opponent to connect, and
+  game to start.
+
+  
+  
+
+

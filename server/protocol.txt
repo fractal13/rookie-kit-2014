@@ -1,0 +1,26 @@
+client->server connection
+
+client->server login / username
+server->client login ack
+
+client->server request game dual
+server->client wait for game dual (ack)
+
+(when 2 players are ready)
+server->client game starting with opposing player name
+
+------
+
+client->server request player oid
+server->client give player oid
+
+client->server commands
+server->client updates
+
+
+
+OR
+client->server request game single
+server->client wait for game single (ack)
+
+
